@@ -1,0 +1,11 @@
+node_modules/
+.next/
+storage/
+.env*
+!.env.example
+*.tsbuildinfo
+
+# Local agent state and credentials
+.codex/
+.agents/
+.aws/

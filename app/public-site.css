@@ -1,0 +1,795 @@
+/* Readable public typography and motion constrained to each image frame. */
+.public-site {
+  font-size: 18px;
+  line-height: 1.9;
+  color: #293029;
+  overflow-x: clip;
+}
+.public-site .eyebrow {
+  font-size: 13px;
+  letter-spacing: 0.12em;
+}
+.public-site .body-copy,
+.public-site .welcome-copy .body-copy,
+.public-site .mission-copy .body-copy,
+.public-site .team-copy .body-copy {
+  font-size: 18px;
+  line-height: 2;
+  color: #52604e;
+}
+.public-site .text-link {
+  font:
+    400 16px/1.7 Prompt,
+    Arial;
+  letter-spacing: 0;
+  min-height: 48px;
+  gap: 18px;
+}
+.public-site .button,
+.public-site .button.small {
+  font-size: 17px;
+  min-height: 48px;
+  padding: 13px 22px;
+}
+.public-site .site-header {
+  min-height: 100px;
+  height: auto;
+  padding: 16px 4%;
+  gap: 24px;
+}
+.public-site .brand-word {
+  font-size: 17px;
+  letter-spacing: 0.08em;
+}
+.public-site .brand-word > span {
+  font-size: 14px;
+  letter-spacing: 0;
+  color: #58684f;
+}
+.public-site .nav {
+  font:
+    400 16px/1.6 Prompt,
+    Arial;
+  gap: 24px;
+}
+.public-site .nav > a,
+.public-site .nav-dropdown > a {
+  padding: 14px 0;
+  white-space: nowrap;
+}
+.public-site .dropdown-items {
+  min-width: 290px;
+  top: 52px;
+}
+.public-site .dropdown-items a {
+  font-size: 16px;
+  padding: 12px;
+}
+.public-site .header-social > a {
+  font-size: 15px;
+  min-height: 46px;
+  padding: 10px 14px;
+}
+.public-site .hero-copy .eyebrow {
+  font-size: 14px;
+}
+.public-site .hero-sub {
+  font-size: 19px;
+  line-height: 1.9;
+  max-width: 600px;
+}
+.public-site .hero-cta {
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 1.8;
+  min-height: 48px;
+}
+.public-site .scroll-hint,
+.public-site .hero-pagination {
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+.public-site .hero-pagination > button {
+  width: 44px;
+  height: 44px;
+}
+.public-site .slide-dots button {
+  min-height: 44px;
+}
+.public-site .welcome-copy h1 {
+  font-size: clamp(28px, 2.5vw, 38px);
+  letter-spacing: 0.03em;
+  max-width: 100%;
+}
+.public-site .welcome-copy .small-label,
+.public-site .thai-company {
+  font-size: 20px;
+  color: #52634c;
+}
+.public-site .thai-subtitle {
+  font-size: 18px;
+  color: #5e6e56;
+}
+.public-site .welcome-photo,
+.public-site .concept-image,
+.public-site .mission-photo,
+.public-site .philosophy-photo,
+.public-site .contact-photo,
+.public-site .team-photo {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  min-width: 0;
+  border-radius: 3px;
+}
+.public-site .welcome-photo {
+  margin-left: 0;
+}
+.public-site .welcome-photo:before {
+  display: none;
+}
+.public-site .welcome-photo > img,
+.public-site .concept-image > img,
+.public-site .mission-photo > img,
+.public-site .philosophy-photo > img,
+.public-site .contact-photo > img,
+.public-site .team-photo > img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  min-width: 0;
+  min-height: 0;
+  max-height: 100%;
+}
+.public-site .photo-badge {
+  right: 16px;
+  bottom: 64px;
+  left: 16px;
+  max-width: calc(100% - 32px);
+  width: fit-content;
+  padding: 12px 16px;
+  font:
+    400 16px/1.8 Prompt,
+    Arial;
+  overflow-wrap: anywhere;
+}
+.public-site .image-credit {
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
+  writing-mode: horizontal-tb;
+  transform: none;
+  font:
+    400 13px/1.6 Prompt,
+    Arial;
+  letter-spacing: 0.03em;
+  color: #fff;
+  background: #18321dba;
+  padding: 8px 12px;
+  width: fit-content;
+  max-width: calc(100% - 32px);
+}
+.public-site .concept-signature {
+  font-size: 14px;
+  color: #596b51;
+}
+.public-site .mission-copy h2 {
+  font-size: 38px;
+}
+.public-site .photo-corner {
+  font-size: 15px;
+  padding: 8px 12px;
+  background: #152d1b9e;
+  left: 16px;
+  bottom: 16px;
+  max-width: calc(100% - 32px);
+  line-height: 1.8;
+}
+.public-site .philosophy-copy .small-label {
+  font-size: 22px;
+}
+.public-site .video-copy h2 {
+  font-size: 30px;
+  line-height: 1.7;
+}
+.public-site .video-copy > p:last-child {
+  font:
+    400 17px/1.8 Prompt,
+    Arial;
+  letter-spacing: 0;
+}
+.public-site .section-heading h2,
+.public-site .services-section .section-heading h2,
+.public-site .gallery-header h2 {
+  font-size: 36px;
+  line-height: 1.6;
+}
+.public-site .section-heading > p:last-child,
+.public-site .gallery-header > p {
+  font-size: 18px;
+  color: #596c51;
+}
+.public-site .service-card h3 {
+  font-size: 22px;
+  line-height: 1.7;
+}
+.public-site .service-card > p:not(.eyebrow) {
+  font-size: 17px;
+  line-height: 1.9;
+  color: #5b6c55;
+}
+.public-site .service-card > .eyebrow {
+  font-size: 13px;
+  letter-spacing: 0.04em;
+}
+.public-site .service-number {
+  font-size: 15px;
+}
+.public-site .gallery-tabs {
+  gap: 12px 24px;
+  flex-wrap: wrap;
+}
+.public-site .gallery-tabs button {
+  font:
+    400 17px/1.8 Prompt,
+    Arial;
+  min-height: 48px;
+  white-space: normal;
+}
+.public-site .project-caption strong {
+  font:
+    400 19px/1.7 Prompt,
+    Arial;
+}
+.public-site .project-caption small {
+  font-size: 15px;
+  color: #596c52;
+}
+.public-site .image-count {
+  font-size: 14px;
+  padding: 7px 11px;
+}
+.public-site .project-open {
+  width: 46px;
+  height: 46px;
+}
+.public-site .gallery-note {
+  font-size: 15px;
+  color: #63755a;
+}
+.public-site .instagram-strip {
+  gap: 20px;
+  padding: 32px 5%;
+  flex-wrap: wrap;
+}
+.public-site .instagram-strip > a {
+  font:
+    400 19px/1.8 Prompt,
+    Arial;
+  letter-spacing: 0;
+}
+.public-site .instagram-strip > span {
+  font-size: 15px;
+  letter-spacing: 0;
+  color: #627456;
+}
+.public-site .team-copy h2 {
+  font-size: 36px;
+}
+.public-site .team-copy > p:not(.eyebrow):not(.body-copy) {
+  font-size: 18px;
+}
+.public-site .team-caption > span {
+  font-size: 20px;
+}
+.public-site .team-caption small {
+  font-size: 16px;
+}
+.public-site .contact-section {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(32px, 5vw, 72px);
+  align-items: start;
+  padding-top: 56px;
+  padding-bottom: 56px;
+  background: white;
+}
+.public-site .contact-photo {
+  height: auto;
+  min-height: 0;
+  border: 1px solid #dfe5d9;
+  border-radius: 16px;
+  background: #f7f9f4;
+  overflow: hidden;
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease;
+}
+.public-site .contact-photo-frame {
+  width: 100%;
+  overflow: hidden;
+  background: #eef2e8;
+}
+.public-site .contact-photo-frame > img {
+  position: static;
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+  filter: none;
+}
+.public-site .contact-photo-title {
+  position: static;
+  padding: 24px 28px;
+  font:
+    400 28px/1.6 Prompt,
+    Arial;
+  color: #2d4933;
+  letter-spacing: 0;
+  overflow-wrap: anywhere;
+}
+.public-site .contact-photo-title span {
+  display: block;
+  font-size: 16px;
+  line-height: 1.9;
+  color: #566a4d;
+  margin-top: 10px;
+}
+.public-site .contact-copy {
+  padding: 0;
+  min-width: 0;
+  align-self: start;
+}
+.public-site .contact-copy > .small-label {
+  font-size: 20px;
+}
+.public-site .contact-copy h2 {
+  font-size: 34px;
+  line-height: 1.6;
+}
+.public-site .contact-intro,
+.public-site .address,
+.public-site .email {
+  font-size: 18px;
+  line-height: 1.9;
+  overflow-wrap: anywhere;
+  color: #52644b;
+}
+.public-site .contact-phones > div {
+  font-size: 26px;
+}
+.public-site .contact-phones a {
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.public-site .contact-phones small {
+  font-size: 16px;
+  color: #526c49;
+}
+.public-site .contact-socials a {
+  width: auto;
+  min-width: 90px;
+  min-height: 110px;
+  padding: 14px;
+  font:
+    400 15px/1.6 Prompt,
+    Arial;
+  gap: 8px;
+}
+.public-site .contact-socials a small {
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+.public-site .site-footer {
+  font:
+    400 14px/1.8 Prompt,
+    Arial;
+  gap: 24px;
+  flex-wrap: wrap;
+  color: #596b52;
+}
+.public-site .footer-brand {
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  max-width: 100%;
+}
+.public-site .footer-brand .brand-mark {
+  width: 54px;
+  height: 54px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+.public-site .site-footer button {
+  min-height: 44px;
+  font-size: 15px;
+}
+.public-site .cookie-banner {
+  max-width: calc(100vw - 32px);
+  width: 640px;
+  padding: 22px;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+.public-site .cookie-banner > p,
+.public-site .cookie-banner > p button {
+  font:
+    400 16px/1.9 Prompt,
+    Arial;
+  color: #43573c;
+}
+.public-site .cookie-banner > div button {
+  font-size: 16px;
+  min-height: 46px;
+  padding: 12px 16px;
+}
+.public-site .modal-top {
+  font-size: 20px;
+  line-height: 1.7;
+  padding: 18px 24px;
+  gap: 16px;
+}
+.public-site .icon-button {
+  min-width: 48px;
+  min-height: 48px;
+}
+.public-site .article-content h2,
+.public-site .album-details h2 {
+  font-size: 28px;
+  line-height: 1.7;
+}
+.public-site .article-content p,
+.public-site .album-details p:not(.eyebrow) {
+  font-size: 18px;
+  line-height: 2;
+  color: #52644c;
+}
+.public-site .album-details {
+  flex-wrap: wrap;
+}
+.public-site .album-counter {
+  font-size: 16px;
+}
+.public-site .album-prev,
+.public-site .album-next {
+  min-width: 48px;
+  min-height: 48px;
+}
+.public-site .video-notice {
+  font-size: 15px;
+}
+.public-site .mobile-conversion > a {
+  font-size: 16px;
+  min-height: 58px;
+  line-height: 1.8;
+}
+/* Hover only on pointing devices; photos move inside clipped frames. */
+.public-site
+  :is(
+    .welcome-photo,
+    .concept-image,
+    .mission-photo,
+    .philosophy-photo,
+    .contact-photo,
+    .team-photo,
+    .service-image,
+    .project-image
+  )
+  > img {
+  transition:
+    transform 0.65s cubic-bezier(0.2, 0.6, 0.3, 1),
+    filter 0.65s;
+  transform-origin: center;
+  will-change: auto;
+}
+@media (hover: hover) and (pointer: fine) {
+  .public-site
+    :is(
+      .welcome-photo,
+      .concept-image,
+      .mission-photo,
+      .philosophy-photo,
+      .contact-photo,
+      .team-photo,
+      .service-image
+    ):hover
+    > img {
+    transform: scale(1.045) translateY(-3px);
+  }
+  .public-site .project-card:hover .project-image > img {
+    transform: scale(1.055) translateY(-3px);
+    filter: brightness(0.94);
+  }
+}
+@media (max-width: 1200px) and (min-width: 951px) {
+  .public-site .brand-word {
+    display: none;
+  }
+  .public-site .nav {
+    gap: 20px;
+  }
+  .public-site .site-header {
+    gap: 18px;
+  }
+  .public-site .services-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 44px 26px;
+  }
+  .public-site .gallery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 950px) {
+  .public-site .site-header {
+    min-height: 88px;
+    padding: 12px 4%;
+    gap: 14px;
+  }
+  .public-site .brand-word {
+    display: block;
+    font-size: 14px;
+    max-width: 190px;
+    letter-spacing: 0.05em;
+  }
+  .public-site .brand-word > span {
+    font-size: 13px;
+  }
+  .public-site .brand-mark {
+    width: 52px;
+    height: 52px;
+  }
+  .public-site .header-social {
+    margin-left: auto;
+  }
+  .public-site .header-social .social-fb {
+    display: none;
+  }
+  .public-site .header-social > a {
+    min-height: 44px;
+    padding: 10px;
+    font-size: 14px;
+  }
+  .public-site .mobile-menu {
+    display: flex;
+    width: 44px;
+    min-height: 44px;
+    flex-shrink: 0;
+  }
+  .public-site .nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    padding: 18px 5%;
+    box-shadow: 0 8px 20px #0001;
+    max-height: calc(100svh - 88px);
+    overflow: auto;
+  }
+  .public-site .nav.open {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+  .public-site .nav > a,
+  .public-site .nav-dropdown > a {
+    display: flex;
+    padding: 14px 0;
+    font-size: 18px;
+  }
+  .public-site .dropdown-items {
+    display: block;
+    position: static;
+    padding: 4px 12px;
+    background: #f6f8f2;
+    border: 0;
+    box-shadow: none;
+    min-width: 0;
+  }
+  .public-site .dropdown-items a {
+    font-size: 16px;
+    padding: 12px;
+  }
+  .public-site .welcome,
+  .public-site .mission,
+  .public-site .concept {
+    gap: 40px;
+  }
+  .public-site .contact-section {
+    grid-template-columns: 1fr;
+  }
+  .public-site .contact-photo {
+    min-height: 0;
+  }
+  .public-site .contact-copy {
+    padding: 0;
+  }
+  .public-site .gallery-grid,
+  .public-site .services-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 700px) {
+  .public-site .site-header {
+    gap: 8px;
+    padding: 12px 4%;
+  }
+  .public-site .brand {
+    gap: 8px;
+    flex-shrink: 1;
+    min-width: 0;
+  }
+  .public-site .brand-word {
+    font-size: 12px;
+    max-width: 140px;
+    letter-spacing: 0.02em;
+  }
+  .public-site .brand-word > span {
+    font-size: 12px;
+  }
+  .public-site .brand-mark {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+  }
+  .public-site .header-social > a {
+    font-size: 13px;
+    padding: 9px;
+  }
+  .public-site .hero {
+    height: auto;
+    min-height: 620px;
+    max-height: none;
+  }
+  .public-site .hero-copy {
+    top: 18%;
+    max-width: 86%;
+    left: 7%;
+  }
+  .public-site .hero-copy h2 {
+    font-size: 36px;
+    line-height: 1.6;
+  }
+  .public-site .hero-copy .eyebrow {
+    font-size: 12px;
+    letter-spacing: 0.06em;
+  }
+  .public-site .hero-sub {
+    font-size: 18px;
+    max-width: 100%;
+  }
+  .public-site .hero-cta {
+    font-size: 16px;
+  }
+  .public-site .hero-bottom {
+    bottom: 24px;
+    left: 7%;
+    right: 7%;
+    gap: 10px;
+  }
+  .public-site .scroll-hint {
+    display: none;
+  }
+  .public-site .hero-pagination {
+    margin-left: auto;
+    font-size: 14px;
+    gap: 6px;
+  }
+  .public-site .hero-pagination > button {
+    width: 44px;
+    height: 44px;
+  }
+  .public-site .welcome-photo {
+    height: 460px;
+  }
+  .public-site .welcome-copy h1 {
+    font-size: 28px;
+  }
+  .public-site .welcome-copy .small-label {
+    font-size: 20px;
+  }
+  .public-site .concept-copy > p {
+    font-size: 26px;
+  }
+  .public-site .mission-copy h2,
+  .public-site .section-heading h2,
+  .public-site .services-section .section-heading h2,
+  .public-site .gallery-header h2,
+  .public-site .contact-copy h2 {
+    font-size: 30px;
+  }
+  .public-site .service-card h3 {
+    font-size: 22px;
+  }
+  .public-site .services-grid,
+  .public-site .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+  .public-site .project-shape-1,
+  .public-site .project-shape-3 {
+    margin-top: 0;
+  }
+  .public-site .project-image,
+  .public-site .project-shape-1 .project-image,
+  .public-site .project-shape-3 .project-image {
+    aspect-ratio: 4/3;
+  }
+  .public-site .contact-photo {
+    min-height: 0;
+  }
+  .public-site .contact-photo-title {
+    font-size: 24px;
+    padding: 20px;
+  }
+  .public-site .contact-phones > div {
+    font-size: 25px;
+  }
+  .public-site .contact-socials {
+    gap: 10px;
+  }
+  .public-site .site-footer {
+    padding-bottom: 90px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .public-site .cookie-banner {
+    left: 16px;
+    right: 16px;
+    bottom: 76px;
+    padding: 18px;
+    max-height: calc(100svh - 180px);
+    overflow: auto;
+  }
+  .public-site .cookie-banner > div {
+    flex-wrap: wrap;
+  }
+  .public-site .mobile-conversion > a {
+    font-size: 15px;
+    min-height: 58px;
+  }
+  .public-site .album-details {
+    padding: 24px;
+    gap: 20px;
+  }
+  .public-site .album-details > .button {
+    width: 100%;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .public-site * {
+    scroll-behavior: auto !important;
+  }
+  .public-site
+    :is(
+      .welcome-photo,
+      .concept-image,
+      .mission-photo,
+      .philosophy-photo,
+      .contact-photo,
+      .team-photo,
+      .service-image,
+      .project-image
+    )
+    > img {
+    transition: none !important;
+    transform: none !important;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .public-site .contact-photo:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px #233f2014;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .public-site .contact-photo {
+    transform: none !important;
+    transition: none !important;
+  }
+}

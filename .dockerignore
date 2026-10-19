@@ -1,0 +1,10 @@
+node_modules
+.next
+.git
+.codex
+.agents
+.aws
+storage
+.env*
+*.tsbuildinfo
+tests

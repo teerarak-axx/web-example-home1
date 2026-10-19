@@ -1,0 +1,9 @@
+node_modules
+.next
+storage
+package-lock.json
+public/fonts
+.git
+.codex
+.agents
+.aws

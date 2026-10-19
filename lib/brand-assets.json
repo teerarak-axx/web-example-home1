@@ -1,0 +1,92 @@
+{
+  "logo": {
+    "full_url": "/brand/baanpoo/logo.webp",
+    "thumb_url": "/brand/baanpoo/logo-thumb.webp",
+    "width": 200,
+    "height": 200
+  },
+  "cover": {
+    "full_url": "/brand/baanpoo/cover.webp",
+    "thumb_url": "/brand/baanpoo/cover-thumb.webp",
+    "width": 960,
+    "height": 541
+  },
+  "garden1": {
+    "full_url": "/brand/baanpoo/garden1.webp",
+    "thumb_url": "/brand/baanpoo/garden1-thumb.webp",
+    "width": 443,
+    "height": 590
+  },
+  "garden2": {
+    "full_url": "/brand/baanpoo/garden2.webp",
+    "thumb_url": "/brand/baanpoo/garden2-thumb.webp",
+    "width": 1080,
+    "height": 1440
+  },
+  "garden3": {
+    "full_url": "/brand/baanpoo/garden3.webp",
+    "thumb_url": "/brand/baanpoo/garden3-thumb.webp",
+    "width": 443,
+    "height": 590
+  },
+  "terrace1": {
+    "full_url": "/brand/baanpoo/terrace1.webp",
+    "thumb_url": "/brand/baanpoo/terrace1-thumb.webp",
+    "width": 590,
+    "height": 443
+  },
+  "pavilion1": {
+    "full_url": "/brand/baanpoo/pavilion1.webp",
+    "thumb_url": "/brand/baanpoo/pavilion1-thumb.webp",
+    "width": 590,
+    "height": 443
+  },
+  "side1": {
+    "full_url": "/brand/baanpoo/side1.webp",
+    "thumb_url": "/brand/baanpoo/side1-thumb.webp",
+    "width": 443,
+    "height": 590
+  },
+  "side2": {
+    "full_url": "/brand/baanpoo/side2.webp",
+    "thumb_url": "/brand/baanpoo/side2-thumb.webp",
+    "width": 467,
+    "height": 590
+  },
+  "side3": {
+    "full_url": "/brand/baanpoo/side3.webp",
+    "thumb_url": "/brand/baanpoo/side3-thumb.webp",
+    "width": 443,
+    "height": 590
+  },
+  "side4": {
+    "full_url": "/brand/baanpoo/side4.webp",
+    "thumb_url": "/brand/baanpoo/side4-thumb.webp",
+    "width": 443,
+    "height": 590
+  },
+  "path1": {
+    "full_url": "/brand/baanpoo/path1.webp",
+    "thumb_url": "/brand/baanpoo/path1-thumb.webp",
+    "width": 444,
+    "height": 590
+  },
+  "path2": {
+    "full_url": "/brand/baanpoo/path2.webp",
+    "thumb_url": "/brand/baanpoo/path2-thumb.webp",
+    "width": 444,
+    "height": 590
+  },
+  "path3": {
+    "full_url": "/brand/baanpoo/path3.webp",
+    "thumb_url": "/brand/baanpoo/path3-thumb.webp",
+    "width": 590,
+    "height": 444
+  },
+  "path4": {
+    "full_url": "/brand/baanpoo/path4.webp",
+    "thumb_url": "/brand/baanpoo/path4-thumb.webp",
+    "width": 590,
+    "height": 444
+  }
+}

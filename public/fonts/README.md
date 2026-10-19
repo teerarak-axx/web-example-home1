@@ -1,0 +1,1 @@
+Montserrat and Prompt are distributed under the SIL Open Font License 1.1. Sources: https://github.com/google/fonts/tree/main/ofl/montserrat and https://github.com/google/fonts/tree/main/ofl/prompt. Downloaded from Google Fonts and served locally; no visitor requests to Google Fonts.
